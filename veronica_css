@@ -1,0 +1,104 @@
+#head{
+	width:1000px;
+	height:140px;
+	background: RGB(0, 119, 156);
+	margin-left:150px;
+	border-radius:0px 0px 10px 10px;
+	padding-bottom:10px;
+	box-shadow: 5px 5px 10px rgb(0, 119, 20); opacity: 0.85; 
+}
+#name{
+	width:970px;
+	height:65px;
+	background:RGB(253, 250, 255);
+	margin-left:15px;
+	color:RGB(0, 119, 176);
+	text-decoration:inherit;
+	border-radius:0px 0px 10px 10px;
+	
+}
+#image{
+	float:right;
+	margin-right:50px;
+	margin-top:-55px;
+	
+}
+#contact{
+	width: 884px;
+	height: 65px;
+	background: RGB(0, 119, 16);
+	border-radius:10px 10px 0px 0px ;
+	padding-left:110px; padding-top:px;
+	margin-left:3px;
+	
+}
+#address{
+	width: 300px;
+	height: 60px;
+	background: white;
+	padding-left:5px;
+}
+#email{
+	width: 300px;
+	height: 60px;
+	background: white;
+	color: red;
+	font-size:20px;
+	margin-left: 460px;
+	margin-top:-79px;
+	padding-left:5px;
+	 
+}
+#body{
+	width:905px;
+	height:1510px;
+	margin-left:200px;
+	box-shadow: 0px 5px 5px 5px  rgb(0, 79, 50); opacity: 0.85; 
+	
+}
+#prof{
+	width:900px;
+	padding-left:5px;
+	background: lavender;
+}
+#comp{
+	width:900px;
+	background: lavender;
+	padding-left:5px;
+	
+}
+#work{
+	width:900px;
+	background: lavender;
+	padding-left:5px;
+	
+}
+#edu{
+	width:900px;
+	background: lavender;
+	padding-left:5px;
+}
+
+.section_name{
+	color:blue;
+	margin-left:300px;
+	
+	
+}
+.section_name_2{
+	color:RGB(0, 150, 5);
+	
+}
+#footer{
+	width:1000px;
+	background: RGB(0, 119, 156);
+	color: white;
+	font:15px;
+	margin-left:150px;
+	border-radius:10px 10px 0px 0px ;
+	box-shadow: 5px 5px 10px rgb(0, 119, 20); 
+	opacity: 0.85;
+}
+
+
+
