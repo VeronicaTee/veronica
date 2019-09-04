@@ -1,3 +1,4 @@
+
 #head{
 	width:1000px;
 	height:140px;
@@ -51,7 +52,7 @@
 }
 #body{
 	width:905px;
-	height:1510px;
+	height:850px;
 	margin-left:200px;
 	box-shadow: 0px 5px 5px 5px  rgb(0, 79, 50); opacity: 0.85; 
 	
@@ -78,6 +79,18 @@
 	background: lavender;
 	padding-left:5px;
 }
+#btn_contact{
+	position: absolute;
+	margin-left:30%;
+  background-color: RGB(0, 119, 156);
+  color:white;
+  height:40px;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 10px 10px 10px 10px ;
+  box-shadow: 5px 5px 10px rgb(0, 119, 20);
+	
+}
 
 .section_name{
 	color:blue;
@@ -91,6 +104,7 @@
 }
 #footer{
 	width:1000px;
+	height:80px;
 	background: RGB(0, 119, 156);
 	color: white;
 	font:15px;
@@ -100,5 +114,109 @@
 	opacity: 0.85;
 }
 
+#hobbies{
+	width:905px;
+	height:80px;
+	background: lavender;
+	color: black;
+	font:15px;
+	border-radius:0px 0px 10px 10px ;
+	box-shadow: 5px 5px 10px rgb(0, 119, 20); 
+	opacity: 0.85;
+	
+}
+.section_hb{
+	margin-left:300px;
+	color: black;
+}
 
+#contact_me{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 30px;
+  
+}
 
+.contact{
+  background-color: RGB(0, 119, 156);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 3px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  margin-top:-30px;
+}
+
+.container {
+  padding: 0px 20px 20px 20px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+  background-color: #f44336;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.view-input {
+  width: 95%;
+  height:auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#send {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  
+  width: 150px;
+}
+
+.container-button{
+	
+	margin-left:35%;
+	font-size: 25px;
+  font-weight: bold;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 0.9s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
