@@ -31,7 +31,7 @@
 
 		<div id="body">
 			<div id="prof">
-				<p> <h2 class="section_name">PROFFESSIONAL SUMMARY </h2> </p>
+				<p> <h2 class="section_name">PROFESSIONAL SUMMARY </h2> </p>
 				<p class="pro"> A self-driven individual with knowledge and experience in Estate Surveying and Valuation, Economics, and Web Development; with the ability to work in a diverse multicultural environment,
 					a zeal to learn more, and a drive to make an impact and offer expert knowledge and skills to the best of my ability,
 					for the benefit of my team and my organization.
