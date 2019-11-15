@@ -106,30 +106,45 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </style>
     </head>
     <body>
-        <h2>Contact Us</h2>
-        <p>Please fill in this form and send us.</p>
-        <form action="contact.php" method="post">
-            <p>
-                <label for="inputName">Name:<sup>*</sup></label>
-                <input type="text" name="name" id="inputName" value="<?php echo $name; ?>">
-                <span class="error"><?php echo $nameErr; ?></span>
-            </p>
-            <p>
-                <label for="inputEmail">Email:<sup>*</sup></label>
-                <input type="text" name="email" id="inputEmail" value="<?php echo $email; ?>">
-                <span class="error"><?php echo $emailErr; ?></span>
-            </p>
-            <p>
-                <label for="inputSubject">Subject:</label>
-                <input type="text" name="subject" id="inputSubject" value="<?php echo $subject; ?>">
-            </p>
-            <p>
-                <label for="inputComment">Message:<sup>*</sup></label>
-                <textarea name="message" id="inputComment" rows="5" cols="30"><?php echo $message; ?></textarea>
-                <span class="error"><?php echo $messageErr; ?></span>
-            </p>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
+        
+        <div id="contact_me" >
+        <h2>Contact Me</h2>
+        <p>Please fill in this form and your message will be sent to me.</p>
+			<form id="contact_form " name="formName" class="contact animate" action="contact.php" onsubmit="return verification()" method="post" >
+				<div class="imgcontainer">
+					<span onclick="document.getElementById('contact_me').style.display='none'" class="close" title="Close form">&times;</span>
+				</div>
+				<br>
+				<div class="container">
+					<div class="form_container">				
+                        <p>
+                            <label for="inputName">Name:<sup>*</sup></label>
+                            <input type="text" name="name" id="inputName" value="<?php echo $name; ?>">
+                            <span class="error"><?php echo $nameErr; ?></span>
+                        </p>
+                        <p>
+                            <label for="inputEmail">Email:<sup>*</sup></label>
+                            <input type="text" name="email" id="inputEmail" value="<?php echo $email; ?>">
+                            <span class="error"><?php echo $emailErr; ?></span>
+                        </p>
+                        <p>
+                            <label for="inputSubject">Subject:</label>
+                            <input type="text" name="subject" id="inputSubject" value="<?php echo $subject; ?>">
+                        </p>
+                        <p>
+                            <label for="inputComment">Message:<sup>*</sup></label>
+                            <textarea name="message" id="inputComment" rows="5" cols="30"><?php echo $message; ?></textarea>
+                            <span class="error"><?php echo $messageErr; ?></span>
+                        </p>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+					</div>
+				</div>
+			</form>
+		</div>
     </body>
 </html>
+
+
+
+            
