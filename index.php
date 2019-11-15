@@ -81,7 +81,7 @@
 				<p> Music, Reading, Travelling, and acquiring new knowledge. </p>
 			</div><br>
 		
-			<button id="btn_contact" type="button"><a href="contact.php"></button> Contact Me </button>
+			<button id="btn_contact" type="button"><a href="contact.php"> Contact Me </button>
 			
 		</div>
 		
