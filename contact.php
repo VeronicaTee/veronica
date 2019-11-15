@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <script src="contact.js"></script>
     <body>
         
-        <div id="contact_me" >
+        <div id="contact" >
             <h2>Contact Me</h2>
             <p>Please fill in this form and your message will be sent to me.</p>
 			<form id="contact_form " name="formName" class="contact animate" action="contact.php" onsubmit="return verification()" method="post" >
