@@ -103,7 +103,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <meta charset="UTF-8">
         <title>Contact Form</title>
         <link rel="stylesheet" href="Veronica.css" />
-        <style type="Veronica.css">
+        <style>
             .error{ color: red; }
             .success{ color: green; }
         </style>
