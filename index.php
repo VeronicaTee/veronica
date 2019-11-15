@@ -49,15 +49,11 @@
 					 Power Point, Microsoft Excel, Online research skills.
 					</li>
 					<li> HNG Internship 6 (Finalist)</li>
-					<li> Experience in Real Estate, Property Management, and Property Valuation. </li>
-					<li> Knowledge of land policies, principles of property valuation, asset valuation,
-					 advanced valuation, plant and machinery valuation </li>
-					<li> Knowledge of relevant laws (including law of torts, law of contract, arbitration and awards, land law). </li>
-					<li> Knowledge of building construction and materials, building maintenance,management of building projects, 
-					 building services and equipment, project planning and control. </li>
-					<li> Knowledge of principles of Economics, microeconomic and macroeconomic theories.</li>
-					<li> Knowledge of Environmental Impact Assessment </li>
-					<li> Research </li>
+					<li> Excellent written and verbal communication skills </li>
+					<li> Ability to work and deliver under pressure </li>
+					<li> Problem solving and logical thinking </li>
+					<li> Great team work and spirit </li>
+					<li> Business-savvy </li>
 				</ul>
 			</div>
 
