@@ -13,5 +13,8 @@
             <li><em>Subject:</em> <?php echo $_POST["subject"]?></li>
             <li><em>Message:</em> <?php echo $_POST["message"]?></li>
         </ol>
+
+        <button id="back_home" type="button"><a href="index.php"> Back to Home </button>
+
     </body>
 </html>
