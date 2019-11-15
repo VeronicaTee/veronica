@@ -116,6 +116,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         
         <div id="contact_me" >
+            
 			<form id="contact_form " name="formName" class="contact animate" action="contact.php" onsubmit="return verification()" method="post" >
 				<br>
 				<div class="container">
