@@ -41,18 +41,18 @@
 			<div id="comp">
 				<h2 class="section_name">COMPETENCE AND SKILLS</h2> 
 				<ul>
-					<li> HTML (Proficient)
-					<li> CSS (Proficient)
+					<li> HTML/CSS
 					<li> Javascript (Beginner)
 					<li> PHP/Laravel (Beginner)
-					<li> Software Usage: Slack, GitHub, Pivotal Tracker, Cloudinary, Microsoft Word,
-					 Power Point, Microsoft Excel, Online research skills.
-					</li>
+					<li> SQL (Beginner)
+					<li> Source Control (Beginner)
+					<li> Pivotal Tracker </li>
 					<li> HNG Internship 6 (Finalist)</li>
 					<li> Excellent written and verbal communication skills </li>
 					<li> Ability to work and deliver under pressure </li>
 					<li> Problem solving and logical thinking </li>
-					<li> Great team work and spirit </li>
+					<li> Good team player </li>
+					<li> Positive Attitude and Quick Learning Ability </li>
 					<li> Business-savvy </li>
 				</ul>
 			</div>
