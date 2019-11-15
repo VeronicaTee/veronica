@@ -114,10 +114,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <body>
         
         
-        
+        <h2>Contact Us</h2>
+        <p>Please fill in this form and send us.</p>
         <div id="contact_me" >
             
-			<form id="contact_form " name="formName" class="contact animate" action="contact.php" onsubmit="return verification()" method="post" >
+			<form action="process-form.php" id="contact_form " name="formName" class="contact animate" action="contact.php" onsubmit="return verification()" method="post" >
 				<br>
 				<div class="container">
 					<div class="form_container">				
